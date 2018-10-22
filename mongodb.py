@@ -122,6 +122,6 @@ def analyse_file(filename, dstfilename):
 			f.write(item['create_time'] + ', ' + str(item['param']) + ', ' + str(item['transaction_id']) + '\n')
 
 
-#get_raw_data()
+get_raw_data()
 analyse_file('ALL_DATA.log', 'RESULT_ALL_DATA.log')
 
